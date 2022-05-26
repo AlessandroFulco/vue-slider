@@ -42,7 +42,7 @@ const carousel = new Vue({
             if(this.activeSlide < 0){
                 this.activeSlide = this.slides.length - 1;
             }
-        }
+        },
     }
 });
 
