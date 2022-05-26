@@ -43,6 +43,9 @@ const carousel = new Vue({
                 this.activeSlide = this.slides.length - 1;
             }
         },
+        selectedThumb(thumb) {
+            this.activeSlide = thumb
+        }
     }
 });
 
